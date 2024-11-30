@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+}
+
+article{
+    position: relative;
+}
+
+#nav-links{
+    height: 25px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 220px;
+}
+
+a{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #ff984f;
+}
+
+#capa{
+    background-color: white;
+    position: relative;
+    padding: 220px;
+}
+
+h1{
+    position: absolute;
+    font-size: 3.5em;
+    margin: 0px;
+    left: 19%;
+    bottom: 45%;
+}
+
+#mini{
+    position: absolute;
+    left: 21%;
+    bottom: 38%;
+}
+
+#imgp{
+    color: #944812;
+    font-size: 1.8em;
+    position: absolute;
+    left: 38%;
+    bottom: 38%;
+}
+
+#imgtopo{
+    border: 5px solid #944812;
+    position: absolute;
+    width: 650px;
+    height: 430px;
+    right: 0%;
+    top: 0%;
+}
+
+.ret{
+    position: relative;
+    padding: 280px;
+}
+
+.text{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+#retp{
+    font-size: 15px;
+    text-align: justify;
+    max-width: 450px;
+    line-height: 27px;
+}
+
+#white1{
+    background-color: #e6e6e6;
+}
+
+#white1 > h2{
+    right: 26%;
+    top: 26%;
+}
+
+#white1 > p{
+    left: 52%;
+    top: 36%;
+}
+
+#imgp1{
+    position: absolute;
+    font-size: 1.8em;
+    color: #ff984f;
+    left: 36%;
+    bottom: 40%;
+}
+
+#img1{
+    border: 5px solid #ff984f;
+    position: absolute;
+    width: 450px;
+    height: 550px;
+    left: 0%;
+    top: 0%;
+}
+
+#black{
+    position: relative;
+    color: white;
+}
+
+#black > h2{
+    left: 27%;
+    top: 29%;
+}
+
+#black > p{
+    right: 50%;
+    top: 40%;
+}
+
+#imgp2{
+    position: absolute;
+    font-size: 1.8em;
+    color: #944812;
+    left: 36%;
+    bottom: 40%;
+}
+
+#img2{
+    border: 5px solid #944812;
+    position: absolute;
+    width: 450px;
+    height: 550px;
+    right: 0%;
+    top: 0%;
+}
+
+#white2{
+    padding: 280px;
+    background-color: #e6e6e6;
+    color: black;
+}
+
+#white2 > h2{
+    top: 30%;
+    left: 43.5%;
+}
+
+#white2 > p{
+    top: 42%;
+    left: 23.5%;
+    max-width: 700px;
+}
+
+footer{
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
